@@ -1,0 +1,111 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# =============================================================================
+# Virtual environment & secrets
+# =============================================================================
+venv/
+env/
+.venv/
+.env
+.env.*
+*.env
+
+# =============================================================================
+# Jupyter
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+# Dataset (download separately — do not push to GitHub)
+# =============================================================================
+data/raw/
+data/processed/
+
+# =============================================================================
+# Large zip archives (Colab downloads, submission bundles)
+# =============================================================================
+*.zip
+final-project.zip
+hinglish-sentiment-colab.zip
+colab-results.zip
+colab-results-lite.zip
+
+# =============================================================================
+# Trained model weights & checkpoints (regenerate via train.py)
+# =============================================================================
+
+# MuRIL transformer (~900 MB+ per checkpoint)
+results/muril_checkpoints/
+results/muril_logs/
+
+# Classical ML models
+results/*.pkl
+results/logistic_regression.pkl
+results/svm_model.pkl
+results/tfidf_vectorizer.pkl
+results/lstm_tokenizer.pkl
+
+# LSTM (Keras / TensorFlow)
+results/lstm_best_model.h5
+results/lstm_best_model.keras
+
+# PyTorch training artifacts (optimizer state is ~1.8 GB — never commit)
+*.pt
+*.pth
+pytorch_model.bin
+training_args.bin
+scheduler.pt
+optimizer.pt
+rng_state.pth
+
+# Safetensors model weights (if generated)
+*.safetensors
+
+# =============================================================================
+# HuggingFace / model download cache
+# =============================================================================
+.cache/
+huggingface/
+
+# =============================================================================
+# Experiment tracking
+# =============================================================================
+wandb/
+logs/
+tensorboard/
+results/muril_logs/
+
+# =============================================================================
+# OS & IDE
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================================================================
+# KEEP on GitHub (not ignored — for reference):
+#   results/metrics.json
+#   results/results_table.csv
+#   results/error_analysis.csv
+#   results/error_analysis.txt
+#   results/*.png  (charts, confusion matrices)
+#   results/lstm_history.json
+#   src/, notebooks/, requirements.txt, README.md
+# =============================================================================

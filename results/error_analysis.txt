@@ -1,0 +1,78 @@
+Error Analysis — MuRIL (533 misclassified / 1513 test)
+======================================================================
+
+Example 1
+  Text     : oneharyanaoffcl socha hi nahi tha aisa bhi hoga sirf rona aur kosna hi h ab tere nasib main everyone know who is janwar
+  True     : Negative
+  Predicted: Neutral
+
+Example 2
+  Text     : bajwas24 karachi nahi india he inke skootar hi dekhlo
+  True     : Neutral
+  Predicted: Negative
+
+Example 3
+  Text     : rt thedeci mal jab bhi papa dantate the maa ka pallu tyar tha chupane ko that damn mutual understanding
+  True     : Positive
+  Predicted: Neutral
+
+Example 4
+  Text     : rakeshsinha01 bjp4india secularism ki geet vokne bale kutte ab kahan hai agar a kisi or party k log ho jate to a kutte vok rehe hote
+  True     : Positive
+  Predicted: Negative
+
+Example 5
+  Text     : rt muhamma28871710 oneof2billions ye hi to ha wo apnapn sir jo pore pakistan k mohb islam pakistan mohson e pakistan drabdulqadeerkh
+  True     : Negative
+  Predicted: Neutral
+
+Example 6
+  Text     : i hate the feeling that im being sneakdissed and i dont say nothig about it i be feeling like a bitch
+  True     : Positive
+  Predicted: Negative
+
+Example 7
+  Text     : rpshrj anupampkher gurudronachrya arre apna failure nehru ke naam laga dete hai ye log gdp ki baat karo pichle t co gizeieumcc
+  True     : Neutral
+  Predicted: Negative
+
+Example 8
+  Text     : rt romamatto shehryar taseer salmaantaseer happy birthday to your shaheed baba who spread the message of humanity being a great human
+  True     : Neutral
+  Predicted: Positive
+
+Example 9
+  Text     : mariama60708888 tubaatweets aamirliaquat bhai sirf mere nhi pure pakistan ke hain tm jasy choti soch wali ko koi mun nhi lagata
+  True     : Negative
+  Predicted: Neutral
+
+Example 10
+  Text     : thesortedchaos laga hai apke kisi ne wheelchair hi daal di hai tabhi itna dard hai burnol lagao nahi to khooni b t co 4mh7dpbdsb
+  True     : Negative
+  Predicted: Neutral
+
+Example 11
+  Text     : rssurjewala abe bebqoof aadmi ye ek crime hai is par sarkar ko bura kahojati se kyo jod raheitna bada election h t co mqfv0ge4gt
+  True     : Neutral
+  Predicted: Negative
+
+Example 12
+  Text     : trafficggm singh mighty dcptrafficggm concerned ti ko yeh khud dikhai nahi deta will you take action against the concerned ti as well
+  True     : Negative
+  Predicted: Neutral
+
+Example 13
+  Text     : khanmubeenahmad mmohsinshahzad zaidzamanhamid sekh mujeeb nayla kadri jindawad indian army jindawad jay hind
+  True     : Positive
+  Predicted: Neutral
+
+Example 14
+  Text     : if anyone want to say tum jeeto yah haaro humain tm se pyar hai can suck my dick i won't mind ty
+  True     : Negative
+  Predicted: Neutral
+
+Example 15
+  Text     : anupmajaisbjp madam app sabse hm sbko bahut ummeed thi kids app log ek sagi faisla karege but also awgat kara du 6 t co uyzqgq6nr1
+  True     : Positive
+  Predicted: Neutral
+

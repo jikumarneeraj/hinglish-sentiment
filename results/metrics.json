@@ -1,0 +1,26 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.6219,
+    "f1_macro": 0.6246,
+    "precision_macro": 0.6211,
+    "recall_macro": 0.631
+  },
+  "SVM": {
+    "accuracy": 0.6114,
+    "f1_macro": 0.613,
+    "precision_macro": 0.6098,
+    "recall_macro": 0.6204
+  },
+  "LSTM": {
+    "accuracy": 0.6008,
+    "f1_macro": 0.6004,
+    "precision_macro": 0.597,
+    "recall_macro": 0.611
+  },
+  "MuRIL": {
+    "accuracy": 0.6418,
+    "f1_macro": 0.6452,
+    "precision_macro": 0.6528,
+    "recall_macro": 0.6408
+  }
+}
