@@ -2,7 +2,7 @@
 
 **Comparative Analysis of ML and Transformer Models for Hinglish Sentiment Analysis**
 
-B.Tech Research Paper | SemEval 2020 Task 9 Dataset
+Comparative Analysis of ML and Transformer Models for Hinglish Sentiment Analysis
 
 ---
 
@@ -51,7 +51,7 @@ hinglish-sentiment/
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/your-username/hinglish-sentiment.git
+git clone https://github.com/jikumarneeraj/hinglish-sentiment.git
 cd hinglish-sentiment
 pip install -r requirements.txt
 ```
@@ -135,7 +135,7 @@ All outputs are saved to `results/`:
 | `results/all_confusion_matrices.png` | 2×2 grid of all confusion matrices |
 | `results/results_table.csv` | Comparison table for paper |
 | `results/lstm_training_curves.png` | LSTM training/validation curves |
-| `results/muril_checkpoints/checkpoint-3785/` | Best MuRIL fine-tuned weights |
+| `results/muril_checkpoints/checkpoint-3028/` | Best MuRIL fine-tuned weights |
 | `results/error_analysis.csv` | Misclassified test examples for paper |
 | `results/error_analysis.txt` | 15 sample errors for Error Analysis section |
 
@@ -157,18 +157,10 @@ The train/val/test split (80/10/10) uses `random_state=42` and is identical acro
 
 **SemEval 2020 Task 9 — Sentiment Analysis for Code-Mixed Social Media Text**
 
-- ~15,130 labeled tweets
+- 15,130 labeled tweets
 - 3 classes: Positive, Negative, Neutral
 - Language: Hinglish (Hindi-English code-mixed, Roman script + Devanagari)
 - Source: Twitter
-
----
-
-## Target Venues
-
-- IEEE INDICON
-- ICCES (International Conference on Computer Engineering and Systems)
-- Elsevier Expert Systems with Applications
 
 ---
 
@@ -177,7 +169,7 @@ The train/val/test split (80/10/10) uses `random_state=42` and is identical acro
 If you use this code, please cite:
 
 ```
-@article{your_paper_2024,
+@article{kumar2026hinglish,
   title={Comparative Analysis of ML and Transformer Models for Hinglish Sentiment Analysis},
   author={Neeraj Kumar},
   year={2026}
@@ -193,7 +185,3 @@ Also cite the dataset:
   year={2020}
 }
 ```
-
----
-
-*Work honestly. Report all results. The publication will follow.*
