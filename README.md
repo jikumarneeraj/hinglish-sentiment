@@ -157,7 +157,7 @@ The train/val/test split (80/10/10) uses `random_state=42` and is identical acro
 
 **SemEval 2020 Task 9 — Sentiment Analysis for Code-Mixed Social Media Text**
 
-- ~14,000 labeled tweets
+- ~15,130 labeled tweets
 - 3 classes: Positive, Negative, Neutral
 - Language: Hinglish (Hindi-English code-mixed, Roman script + Devanagari)
 - Source: Twitter
@@ -179,8 +179,8 @@ If you use this code, please cite:
 ```
 @article{your_paper_2024,
   title={Comparative Analysis of ML and Transformer Models for Hinglish Sentiment Analysis},
-  author={Your Name},
-  year={2024}
+  author={Neeraj Kumar},
+  year={2026}
 }
 ```
 
